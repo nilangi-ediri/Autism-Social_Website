@@ -1,0 +1,118 @@
+
+/* info-block */
+
+
+.info-blocks {
+  display: flex;
+  justify-content: space-around; /* 在块之间提供均匀的空间 */
+  flex-wrap: wrap; /* 允许块在小屏幕上换行 */
+  margin: 20px; /* 在外围提供一些空间 */
+}
+
+.info-block {
+  background-color: #ffffff; /* 块的背景颜色 */
+  border: 1px solid #cccccc; /* 边框 */
+  border-radius: 10px; /* 圆角边框 */
+  width: 22%; /* 每个块的宽度，根据需要调整 */
+  padding: 20px; /* 内边距 */
+  margin: 10px; /* 确保块之间有空间 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 轻微的阴影 */
+  text-align: center; /* 文本居中 */
+  transition: transform 0.3s ease; /* 鼠标悬停时的变换效果 */
+}
+
+.info-block:hover {
+  transform: translateY(-5px); /* 鼠标悬停时轻微上移 */
+}
+
+.info-block .icon {
+  font-size: 2em; /* 图标大小 */
+  margin-bottom: 10px;
+}
+
+.info-block h3 {
+  margin-bottom: 10px; /* 标题下的间隔 */
+}
+
+.info-block .show-more {
+  text-decoration: none;
+  color: #007bff; /* 链接颜色 */
+  font-weight: bold;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .info-block {
+      width: 45%; /* 小屏幕上的块宽度调整 */
+  }
+}
+
+@media (max-width: 480px) {
+  .info-block {
+      width: 90%; /* 更小屏幕上的块宽度调整 */
+  }
+}
+
+
+
+
+.info-blocks {
+  display: flex;
+  justify-content: space-around; /* Provides even space between blocks */
+  flex-wrap: wrap; /* Allows blocks to wrap on smaller screens */
+  margin: 20px; /* Provides some space around the outside */
+}
+
+
+
+
+
+/* video */
+
+.video-section {
+  display: flex;
+  align-items: center; /* 垂直居中 */
+  justify-content: center; /* 水平居中 */
+  background-color: #d1e0c7;
+  padding: 80px
+}
+
+.video-wrapper {
+  flex: 1; /* 视频占据可用空间 */
+  padding: 10px; /* 提供一些内边距 */
+}
+
+.video-wrapper iframe {
+  width: 100%;
+  height: auto; /* 保持视频的宽高比 */
+  aspect-ratio: 16 / 9; /* 设置一个16:9的宽高比 */
+}
+
+.video-info {
+  flex: 1; /* 信息部分也占据可用空间 */
+  padding: 10px; /* 提供一些内边距 */
+}
+
+/* 考虑到响应式设计，在小屏幕上堆叠它们 */
+@media (max-width: 768px) {
+  .video-section {
+    flex-direction: column;
+  }
+
+  .video-wrapper iframe {
+    width: 100%;
+    height: auto; /* 在小屏幕上，让高度自动调整 */
+  }
+}
+
+
+.video-info { /* 父容器 */
+  position: relative; /* 设置相对定位 */
+  /* ...其他样式... */
+}
+
+.video-transcription { /* 需要右对齐的元素 */
+  position: absolute; /* 设置绝对定位 */
+  right: 100px; /* 距离父容器右边的距离为0 */
+  
+}
