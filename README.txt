@@ -23,10 +23,6 @@ As a **front-end developer**, my role in this project was to develop the **infor
 - **HTML & CSS**: Structured and styled content pages before transitioning to React.
 - **Git & GitHub**: Managed version control, collaboration, and deployment.
 
-## 📂 Repository
-- My forked repository: [GitHub Repository](https://github.com/NilaSithu/Autism-Social-Platform/tree/nilangi-react)
-- Original repository: [GitHub Repository](https://github.com/Kylektt/Autism-Social-Platform/tree/nilangi-react)
-
 ## 🎯 Learning Outcomes
 This internship provided valuable experience in:
 - Practical application of **front-end web development** concepts.
@@ -40,4 +36,3 @@ I would like to express my gratitude to **Professor Ali Babar** (Head of CREST),
 
 ## 🏁 Conclusion
 This project was a significant milestone in my web development journey, helping me transition from theoretical learning to practical application. The experience gained has been instrumental in shaping my front-end development skills and preparing me for future software engineering roles.
-
